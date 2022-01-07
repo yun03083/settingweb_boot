@@ -1,6 +1,6 @@
 1. API 구현 계획 수립
   <br>○ 스프링 부트 활용
-	<br>　- json 구조로 총 로그인 수 3명, 20년도, 정상적인 결과임을 나타내는 값
+	<br>　- json 구조로 총 로그인 수, 년도, 정상적인 결과임을 나타내는 값들을 출력해서 보여주는 API
 
 
 2. 개발환경 셋팅
@@ -37,12 +37,14 @@
 	<br>　- mapper에 작성한 selectYearLogin을 활용해서 Hashmap형태로 return하고 값을 json형태로 변환 및 화면에 출력
 
 ○ 결과
-
+![7](https://user-images.githubusercontent.com/49810634/148527704-8fa0e916-c9c7-4124-aec7-fc0d32300cf5.PNG)
 
 
 ○ 어려웠던 점
-- 스프링 부트를 따로 설치했다. 이전 STS 버전으로는 프로젝트가 실행되지 않았다.
+- 스프링 4를 따로 설치했다. 이전 STS 버전으로는 프로젝트가 실행되지 않았다.
+![8](https://user-images.githubusercontent.com/49810634/148528488-a248da58-50f0-481e-9504-dc28c9c102ce.PNG)
 - pom.xml 설정하기 (필요한 dependency를 찾는 것)
 - 패키지 이름 설정 (오타 때문에 이름에 차이가 있어서 test과정에서 화면으로 json정보를 출력하는 것이 진행 되지 않았다.)
-- DB 설정 계속해서 exception으로 실행이 되어서 없애고 찾아보니 db에서 가져오지 못하는 것이었다.
-- 아이디와 비번을 잘 설정해주니 잘 되었다.
+- Hashmap의 정보를 가져오는 과정에서 계속 오류가 나서 exception으로 빠졌다. exception을 결국 없애고 찾아보니 db에서 가져오지 못하는 것이었다. 아이디와 비번을 잘 설정해주니 잘 되었다.
+![캡처2](https://user-images.githubusercontent.com/49810634/148528721-a318832c-fa60-46ea-92d7-b68e74203f19.PNG)
+
