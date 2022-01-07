@@ -4,9 +4,9 @@
 
 2. 개발환경 셋팅
   <br>○ 환경 설정
- 	<br>- Maven 자바 버전은 11
- 	<br>- Spring Boot Devtools, Spring Web, MyBatis Framework 만 선택
- 	<br>- 부트 버전 2.6.1
+ 	<br><br>- Maven 자바 버전은 11
+ 	<br><br>- Spring Boot Devtools, Spring Web, MyBatis Framework 만 선택
+ 	<br><br>- 부트 버전 2.6.1
 <br>○ pom.xml 수정 
 	<br>- dependency에 org.mariadb.jdbc, rg.apache.tomcat.embed, org.springframework.boot, org.mybatis.spring.boot를 추가
 
