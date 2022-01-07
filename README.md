@@ -15,17 +15,17 @@
 3. DB 구축
 <br>○ DATABASE statistc
 	<br>- Table statistc.requestInfo 
-		requestID numeric NOT NULL primary key,
-    		requestCode varchar(5) NOT NULL,
-   		userID varchar(5),
-    		reateDate varchar(10)
+		<br>requestID numeric NOT NULL primary key,
+    		<br>requestCode varchar(5) NOT NULL,
+   		<br>userID varchar(5),
+    		<br>reateDate varchar(10)
 	<br>- table statistc.requestCode
-		requestCode varchar(5) NOT NULL primary key,
-    		code_explain varchar(50) NOT NULL
+		<br>requestCode varchar(5) NOT NULL primary key,
+    		<br>code_explain varchar(50) NOT NULL
 	<br>- table statistc.user
-		userID varchar(5) NOT NULL primary key,
-    		HR_ORGAN varchar(5) NOT NULL,
-    		USERNAME varchar(5) NOT NULL
+		<br>userID varchar(5) NOT NULL primary key,
+    		<br>HR_ORGAN varchar(5) NOT NULL,
+    		<br>USERNAME varchar(5) NOT NULL
 
 
 4. 20년도 로그인수 API 구현
