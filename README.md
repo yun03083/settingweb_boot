@@ -1,8 +1,8 @@
 1. API 구현 계획 수립
   <br>○ 스프링 부트 활용
 	<br>　- json 구조로 총 로그인 수, 년도, 정상적인 결과임을 나타내는 값들을 출력해서 보여주는 API
-
-
+<br>
+<br>
 2. 개발환경 셋팅
   <br>○ 환경 설정
      <br>　- Maven 자바 버전은 11
@@ -10,8 +10,8 @@
  	    <br>　- 부트 버전 2.6.1	    
 <br>○ pom.xml 수정 
 	<br>　- dependency에 org.mariadb.jdbc, rg.apache.tomcat.embed, org.springframework.boot, org.mybatis.spring.boot를 추가
-
-
+<br>
+<br>
 3. DB 구축
 <br>○ DATABASE statistc
 	<br>　- Table statistc.requestInfo 
@@ -19,15 +19,18 @@
     		<br>　　- requestCode varchar(5) NOT NULL,
    		<br>　　- userID varchar(5),
     		<br>　　reateDate varchar(10)
+		<br>
 	<br>　- table statistc.requestCode
 		<br>　　- requestCode varchar(5) NOT NULL primary key,
     		<br>　　- code_explain varchar(50) NOT NULL
+		<br>
 	<br>　- table statistc.user
 		<br>　　- userID varchar(5) NOT NULL primary key,
     		<br>　　- HR_ORGAN varchar(5) NOT NULL,
     		<br>　　- USERNAME varchar(5) NOT NULL
 
-
+<br>
+<br>
 4. 20년도 로그인수 API 구현
   <br>○ Mybatis 설정
      <br>　- sql 및 bean 설정
