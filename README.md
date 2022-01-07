@@ -31,10 +31,8 @@
 4. 20년도 로그인수 API 구현
   <br>○ Mybatis 설정
      <br>　- sql 및 bean 설정
-     
  <br>○ mapper 작성
 	<br>　- Hashmap을 생성하는 selectYearLogin 설정 및 20년도 로그인 수를 찾는 쿼리 작성
-	
  <br>○ service 구현
 	<br>　- mapper에 작성한 selectYearLogin을 활용해서 Hashmap형태로 return하고 값을 json형태로 변환 및 화면에 출력
 
