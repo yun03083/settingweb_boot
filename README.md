@@ -36,6 +36,8 @@
  <br>○ service 구현
 	<br>　- mapper에 작성한 selectYearLogin을 활용해서 Hashmap형태로 return하고 값을 json형태로 변환 및 화면에 출력
 
+○ 결과
+
 
 
 ○ 어려웠던 점
