@@ -44,7 +44,8 @@
 - 스프링 4를 따로 설치했다. 이전 STS 버전으로는 프로젝트가 실행되지 않았다.
 ![8](https://user-images.githubusercontent.com/49810634/148528488-a248da58-50f0-481e-9504-dc28c9c102ce.PNG)
 - pom.xml 설정하기 (필요한 dependency를 찾는 것)
-- 패키지 이름 설정 (오타 때문에 이름에 차이가 있어서 test과정에서 화면으로 json정보를 출력하는 것이 진행 되지 않았다.)
+- 패키지 이름 설정 (오타 때문에 이름에 차이가 있어서 test과정에서 화면으로 json정보를 출력하는 것이 진행 되지 않았다.
+<br>![오류](https://user-images.githubusercontent.com/49810634/148528850-b9cb4d7e-4420-41b7-ab80-2bbcfde3d195.PNG)
 - Hashmap의 정보를 가져오는 과정에서 계속 오류가 나서 exception으로 빠졌다. exception을 결국 없애고 찾아보니 db에서 가져오지 못하는 것이었다. 아이디와 비번을 잘 설정해주니 잘 되었다.
 <br>![캡처2](https://user-images.githubusercontent.com/49810634/148528721-a318832c-fa60-46ea-92d7-b68e74203f19.PNG)
 
