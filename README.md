@@ -31,6 +31,8 @@
 
 <br>
 <br>
+<br>
+<br>
 4. 20년도 로그인수 API 구현
   <br>○ Mybatis 설정
      <br>　- sql 및 bean 설정
@@ -41,7 +43,8 @@
 
 ○ 결과
 <br>![7](https://user-images.githubusercontent.com/49810634/148527704-8fa0e916-c9c7-4124-aec7-fc0d32300cf5.PNG)
-
+<br>
+<br>
 
 ○ 어려웠던 점
 - 스프링 4를 따로 설치했다. 이전 STS 버전으로는 프로젝트가 실행되지 않았다.
