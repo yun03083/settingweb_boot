@@ -5,38 +5,38 @@
 
 2. 개발환경 셋팅
   <br>○ 환경 설정
-     <br>- Maven 자바 버전은 11
- 	    <br>- Spring Boot Devtools, Spring Web, MyBatis Framework 만 선택
- 	    <br>- 부트 버전 2.6.1	    
+     <br>　- Maven 자바 버전은 11
+ 	    <br>　- Spring Boot Devtools, Spring Web, MyBatis Framework 만 선택
+ 	    <br>　- 부트 버전 2.6.1	    
 <br>○ pom.xml 수정 
-	<br>- dependency에 org.mariadb.jdbc, rg.apache.tomcat.embed, org.springframework.boot, org.mybatis.spring.boot를 추가
+	<br>　- dependency에 org.mariadb.jdbc, rg.apache.tomcat.embed, org.springframework.boot, org.mybatis.spring.boot를 추가
 
 
 3. DB 구축
 <br>○ DATABASE statistc
-	<br>- Table statistc.requestInfo 
-		<br>requestID numeric NOT NULL primary key,
-    		<br>requestCode varchar(5) NOT NULL,
-   		<br>userID varchar(5),
-    		<br>reateDate varchar(10)
-	<br>- table statistc.requestCode
-		<br>requestCode varchar(5) NOT NULL primary key,
-    		<br>code_explain varchar(50) NOT NULL
-	<br>- table statistc.user
-		<br>userID varchar(5) NOT NULL primary key,
-    		<br>HR_ORGAN varchar(5) NOT NULL,
-    		<br>USERNAME varchar(5) NOT NULL
+	<br>　- Table statistc.requestInfo 
+		<br>　　requestID numeric NOT NULL primary key,
+    		<br>　　requestCode varchar(5) NOT NULL,
+   		<br>　　userID varchar(5),
+    		<br>　　reateDate varchar(10)
+	<br>　- table statistc.requestCode
+		<br>　　requestCode varchar(5) NOT NULL primary key,
+    		<br>　　code_explain varchar(50) NOT NULL
+	<br>　- table statistc.user
+		<br>　　userID varchar(5) NOT NULL primary key,
+    		<br>　　HR_ORGAN varchar(5) NOT NULL,
+    		<br>　　USERNAME varchar(5) NOT NULL
 
 
 4. 20년도 로그인수 API 구현
   <br>○ Mybatis 설정
-     <br> - sql 및 bean 설정
+     <br>　- sql 및 bean 설정
      
  <br>○ mapper 작성
-	<br>- Hashmap을 생성하는 selectYearLogin 설정 및 20년도 로그인 수를 찾는 쿼리 작성
+	<br>　- Hashmap을 생성하는 selectYearLogin 설정 및 20년도 로그인 수를 찾는 쿼리 작성
 	
  <br>○ service 구현
-	<br>- mapper에 작성한 selectYearLogin을 활용해서 Hashmap형태로 return하고 값을 json형태로 변환 및 화면에 출력
+	<br>　- mapper에 작성한 selectYearLogin을 활용해서 Hashmap형태로 return하고 값을 json형태로 변환 및 화면에 출력
 
 
 
